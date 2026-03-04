@@ -11,7 +11,7 @@ int main(){
 			printf("2-Para Cek\n");
 			printf("3-Havale\n");
 			printf("4-Bakiye\n");
-			printf("5-Cikis\n");
+			printf("5-Kart Iade\n");
 			printf("islem seciniz:");
 			scanf("%d",&islem);
 			switch(islem){
@@ -62,6 +62,7 @@ int main(){
 				continue;
 			case 5:
 				printf("Cikis Yapiliyor");
+				printf("!!!Kartinizi Almayi Unutmayin!!!");
 				a=0;
 				continue;
 			}
